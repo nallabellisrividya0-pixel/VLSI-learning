@@ -1,7 +1,7 @@
 module nor_gate_tb;
   reg A,B;
   wire Y;
-  nor_gate uut(.A(A),B(B),Y(Y));
+  nor_gate uut(.A(A),.B(B),.Y(Y));
                 initial begin
                   A=0; B=0; #10;
                   A=0; B=1; #10;
