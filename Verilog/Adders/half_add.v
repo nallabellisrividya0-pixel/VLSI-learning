@@ -1,7 +1,8 @@
 module half_add(
-  input A,B
+  input A,B,
   output sum,
-  output carry);
+  output carry
+);
   assign sum=A^B;
   assign carry=A&B;
 endmodule
