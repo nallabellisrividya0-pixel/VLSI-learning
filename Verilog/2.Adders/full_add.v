@@ -3,5 +3,6 @@ module full_add(
   output sum,cary);
   assign sum=A^B^C;
   assign carry=(A&B)|(A&c)|(A&c);
+endmodule
   
   
